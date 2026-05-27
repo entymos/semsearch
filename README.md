@@ -37,13 +37,6 @@ http://localhost:8088/dashboard
 ```
 ![image](semsearch_dashboard.png)
 
-### pipx
-
-```sh
-pipx install semsearch
-semsearch serve
-```
-
 ### Source Install
 
 ```sh
@@ -330,8 +323,6 @@ semsearch doctor --base-url http://localhost:8088
 ```
 
 ## Release Targets
-
-- PyPI package for `uvx semsearch serve`, `pipx install semsearch`, and regular `pip install semsearch`.
 - Docker image suitable for GHCR or Docker Hub.
 
 ## Attribution
