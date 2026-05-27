@@ -105,7 +105,7 @@ For comprehensive technical documentation covering all MCP tools, search engines
 
 ### Quick References
 
-- **[Search Engines Guide](SEARCH_ENGINES_GUIDE.md)** - Engine selection, diagnostics, and practical combinations
+- **[Search Engines Guide](SEMSEARCH-wiki.md)** - Engine selection, diagnostics, and practical combinations
 - **[Configuration Guide](semsearch/default_config.yaml)** - Default configuration options
 
 ## CLI
