@@ -44,7 +44,7 @@ semsearch serve
 ### Source Install
 
 ```sh
-git clone https://github.com/<owner>/semsearch.git
+git clone https://github.com/entymos/semsearch.git
 cd semsearch
 python -m pip install -e ".[dev]"
 semsearch serve
