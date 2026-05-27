@@ -1,0 +1,62 @@
+engines:
+  - name: duckduckgo
+    display_name: DuckDuckGo
+    enabled: true
+    category: general
+    base_url: https://html.duckduckgo.com
+    timeout_sec: 8
+  - name: qwant
+    display_name: Qwant
+    enabled: true
+    category: general
+    base_url: https://www.qwant.com
+    timeout_sec: 8
+  - name: startpage
+    display_name: Startpage
+    enabled: true
+    category: general
+    base_url: https://www.startpage.com
+    timeout_sec: 8
+  - name: wikipedia
+    display_name: Wikipedia
+    enabled: true
+    category: reference
+    base_url: https://en.wikipedia.org
+    timeout_sec: 8
+  - name: arxiv
+    display_name: arXiv
+    enabled: true
+    category: academic
+    base_url: https://export.arxiv.org
+    timeout_sec: 10
+  - name: hackernews
+    display_name: Hacker News
+    enabled: true
+    category: community
+    base_url: https://hn.algolia.com
+    timeout_sec: 8
+  - name: github
+    display_name: GitHub Repositories
+    enabled: true
+    category: code
+    base_url: https://api.github.com
+    timeout_sec: 8
+  - name: bing
+    display_name: Bing
+    enabled: false
+    category: general
+    base_url: https://www.bing.com
+    timeout_sec: 8
+  - name: google
+    display_name: Google
+    enabled: false
+    category: general
+    base_url: https://www.google.com
+    timeout_sec: 10
+fetch:
+  guard: unrestricted_lab
+security:
+  admin_token_env: SEMSEARCH_ADMIN_TOKEN
+server:
+  port: 8088
+  public_base_url: http://localhost:8088

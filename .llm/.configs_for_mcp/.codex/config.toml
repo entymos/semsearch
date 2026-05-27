@@ -1,0 +1,5 @@
+[mcp_servers.semsearch]
+url = "http://localhost:8088/mcp"
+startup_timeout_sec = 30
+tool_timeout_sec = 120
+enabled = true

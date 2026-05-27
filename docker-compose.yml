@@ -1,0 +1,18 @@
+services:
+  semsearch:
+    build:
+      context: .
+      args:
+        PYTHON_IMAGE: ${SEMSEARCH_PYTHON_IMAGE:-python:3.12-slim}
+    image: semsearch:latest
+    pull_policy: build
+    container_name: semsearch
+    ports:
+      - "${SEMSEARCH_BIND_HOST:-127.0.0.1}:${SEMSEARCH_PORT:-8088}:8088"
+    volumes:
+      - ./data:/data
+    environment:
+      - SEMSEARCH_CONFIG=/data/semsearch.yaml
+      - SEMSEARCH_ADMIN_TOKEN=${SEMSEARCH_ADMIN_TOKEN:-}
+      - SEMSEARCH_BASE_URL=http://127.0.0.1:8088
+    restart: unless-stopped

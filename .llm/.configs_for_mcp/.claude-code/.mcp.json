@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "semsearch": {
+      "type": "http",
+      "url": "http://localhost:8088/mcp"
+    }
+  }
+}

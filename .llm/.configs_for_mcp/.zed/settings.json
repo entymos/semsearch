@@ -1,0 +1,7 @@
+{
+  "context_servers": {
+    "semsearch": {
+      "url": "http://localhost:8088/mcp"
+    }
+  }
+}

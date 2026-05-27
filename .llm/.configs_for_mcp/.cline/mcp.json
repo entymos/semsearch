@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "semsearch": {
+      "url": "http://localhost:8088/mcp",
+      "disabled": false,
+      "autoApprove": []
+    }
+  }
+}

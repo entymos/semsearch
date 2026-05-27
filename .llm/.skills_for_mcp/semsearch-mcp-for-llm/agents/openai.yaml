@@ -1,0 +1,4 @@
+interface:
+  display_name: "SemSearch MCP for LLM"
+  short_description: "Use SemSearch MCP reliably for web-backed answers."
+  default_prompt: "Use $semsearch-mcp-for-llm to answer this web-backed question with SemSearch sources."
