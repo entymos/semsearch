@@ -10,5 +10,4 @@ dist/
 *.egg-info/
 data/
 tests/
-mcp_configs/
 _bak/
