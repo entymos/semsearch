@@ -38,5 +38,5 @@
   <circle cx="114" cy="473" r="6" fill="#f87171"/><circle cx="138" cy="473" r="6" fill="#fbbf24"/><circle cx="162" cy="473" r="6" fill="#34d399"/>
   <text x="114" y="514" font-family="Menlo, Consolas, monospace" font-size="24" fill="#e2e8f0">$ uv run semsearch serve</text>
   <text x="114" y="546" font-family="Menlo, Consolas, monospace" font-size="24" fill="#93c5fd">$ http://localhost:8088/mcp</text>
-  <text x="86" y="624" font-family="Arial, sans-serif" font-size="18" fill="#94a3b8">github.com/entymos/semsearch</text>
+  <text x="86" y="624" font-family="Arial, sans-serif" font-size="18" fill="#94a3b8">SemSemAI Corp. | github.com/entymos/semsearch</text>
 </svg>
