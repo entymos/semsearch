@@ -1,4 +1,6 @@
-﻿# SemSearch
+![image](semsearch-github-preview.svg)
+ 
+# SemSearch
 
 [![Python](https://img.shields.io/badge/python-3.10%2B-blue)](https://www.python.org/)
 [![License](https://img.shields.io/badge/license-AGPL--3.0--only-blue)](LICENSE)
