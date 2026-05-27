@@ -35,6 +35,7 @@ Optional dashboard:
 ```text
 http://localhost:8088/dashboard
 ```
+![image](semsearch_dashboard.png)
 
 ### pipx
 
